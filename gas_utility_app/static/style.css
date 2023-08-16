@@ -1,0 +1,94 @@
+/* static/css/style.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 3;
+  padding: 3;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Form styles */
+form {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  main {
+    padding: 0.5rem;
+  }
+}

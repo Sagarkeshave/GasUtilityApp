@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Track Your Service Requests</h2>
+  <ul>
+    {% for request in requests %}
+      <li>
+        Request Type: {{ request.request_type }}<br>
+        Status: {{ request.status }}<br>
+        Submitted: {{ request.submitted_date }}<br>
+        {% if request.status == 'Resolved' %}
+          Resolved: {{ request.resolved_date }}<br>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+<p>Need help ? <a href="{% url 'support' %}">Contact Customer Support</a></p>
+{% endblock %}
+
