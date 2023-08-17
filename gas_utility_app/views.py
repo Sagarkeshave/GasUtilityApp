@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from .forms import ServiceRequestForm , UserRegisterForm, UserCreationForm
 from .models import ServiceRequest
 from django.contrib import messages
+from django.contrib.auth.decorators import user_passes_test
 
 # Create your views here.
 
@@ -55,4 +56,16 @@ def register(request):
     else:
         form = UserRegisterForm()
     return render(request, 'register.html', {'form': form})
+
+
+@login_required
+def view_account(request):
+    user = request.user
+    return render(request, 'view_account.html', {'user': user})
+
+@login_required
+@user_passes_test(lambda user: user.is_staff)
+def support_tool(request):
+    requests = ServiceRequest.objects.all()
+    return render(request, 'support_tool.html', {'requests': requests})
 
