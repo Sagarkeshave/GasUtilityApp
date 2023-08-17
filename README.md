@@ -4,9 +4,9 @@ Welcome to the Gas Utility Web App! This Django-based application allows custome
 
 ## Table of Contents
 - [Features](Features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Setup](Setup)
+- [Usage](Usage)
+- [Screenshots](Screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -44,6 +44,6 @@ Welcome to the Gas Utility Web App! This Django-based application allows custome
 * Customers can submit requests, track requests, and view account information.
 * Customer support representatives can log in to manage requests using their credentials.
 
-Screenshots
+## Screenshots
 >* Showcasing the different features and aspects of app.
 
