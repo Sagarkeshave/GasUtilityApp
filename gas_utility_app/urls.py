@@ -8,5 +8,7 @@ urlpatterns = [
     path("submit_request/", views.submit_request, name="submit_request"),
     path("manage_request/", views.manage_request, name="manage_request"),
     path("track_request", views.track_request, name="track_request"),
-    path("support", views.support, name= "support")
+    path("support", views.support, name= "support"),
+    path('view_account/', views.view_account, name='view_account'),
+    path('support_tool/', views.support_tool, name='support_tool'),
 ]
