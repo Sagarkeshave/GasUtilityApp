@@ -1,0 +1,105 @@
+/* static/css/style.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 3;
+  padding: 3;
+}
+
+/* Basic styles */
+body {
+  font-family: "Times New Roman", sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #3ca977;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #3ca977;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #3ca977;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Form styles */
+form {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #3ca977;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* Green and white styles */
+.header-banner {
+  background-color: #3ca977;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.success {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.info {
+  background-color: #3ca977;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
