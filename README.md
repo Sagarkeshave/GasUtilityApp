@@ -6,9 +6,7 @@ Welcome to the Gas Utility Web App! This Django-based application allows custome
 - [Features](Features)
 - [Setup](Setup)
 - [Usage](Usage)
-- [Screenshots](Screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Customers can submit service requests online.
